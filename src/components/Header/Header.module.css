@@ -49,10 +49,18 @@ figure figcaption::after {
   align-items: flex-start;
   list-style-type: none;
   cursor: pointer;
+  font-size: 16px;
+  font-family: "merriweather";
 }
 
 .lanIsSelected {
   font-weight: bold;
+  color: #1d1d18;
+}
+.lanIsNotSelected {
+  font-weight: bold;
+  color: #1d1d18;
+  opacity: 50%;
 }
 
 /* On screens that are 1200px or less */

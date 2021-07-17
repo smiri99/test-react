@@ -9,7 +9,7 @@ const Header = (props) => (
     </figure>
     <ul className={styles.languages}>
       <li className={styles.lanIsSelected}>EN</li>
-      <li>FR</li>
+      <li className={styles.lanIsNotSelected}>FR</li>
     </ul>
   </header>
 );

@@ -11,20 +11,27 @@ div.descriptionCard {
 }
 
 div.descriptionCard h1,
-div.descriptionCard h3 {
+div.descriptionCard h2 {
   padding-bottom: 20px;
 }
 
 div.descriptionCard h1 {
-  font-size: x-large;
+  font-family: "merriweather";
+  font-size: 28px;
+  font-weight: bold;
 }
 
-div.descriptionCard h3 {
-  font-size: large;
+div.descriptionCard h2 {
+  font-family: "merriweather";
+  font-size: 20px;
+  font-weight: bold;
 }
 
 div.descriptionCard p {
   font-size: medium;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: regular;
 }
 
 /* On screens that are 1200px or less */

@@ -6,6 +6,7 @@ import Header from './../../components/Header/Header.js';
 import Footer from './../../components/Footer/Footer.js';
 import Description from './../../components/Description/Description.js';
 import RatedCard from './../../components/RatedCard/RatedCard.js'
+import ExpertiseCard from '../../components/ExpertiseCard/ExpertiseCard';
 
 const HomePage = () => (
   <div className={styles.container}>
@@ -13,6 +14,7 @@ const HomePage = () => (
     <Header />
     <Description />
     <RatedCard />
+    <ExpertiseCard />
     <Footer />
   </div>
 );

@@ -1,0 +1,13 @@
+.ExpertiseCard {
+  width: 538px;
+  height: 99.61px;
+  text-align: left;
+  margin-left: 240px;
+  margin-top: 10px;
+}
+
+.ExpertiseCard p {
+  font-size: large;
+  font-weight: bold;
+  font-family: "merriweather";
+}
