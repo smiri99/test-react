@@ -1,0 +1,13 @@
+div.container {
+  padding: 0;
+  height: 600px;
+}
+
+img.showcaseImage {
+  width: 577px;
+  height: 854px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+}

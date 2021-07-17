@@ -1,0 +1,112 @@
+header {
+  width: 1200px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+figure {
+  width: 116px;
+  height: 116px;
+  text-align: center;
+}
+
+figure figcaption {
+  font-size: x-large;
+}
+
+figure figcaption span {
+  position: relative;
+  top: -10px;
+  font-size: small;
+}
+
+figure figcaption::before {
+  content: "";
+  display: block;
+  width: 109px;
+  height: 1.1px;
+  background-color: black;
+}
+
+figure figcaption::after {
+  content: "";
+  display: block;
+  width: 109px;
+  height: 1.5px;
+  background-color: black;
+}
+
+.languages {
+  width: 50px;
+  height: 116px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.lanIsSelected {
+  font-weight: bold;
+}
+
+/* On screens that are 1200px or less */
+@media screen and (max-width: 1200px) {
+  header {
+    width: 800px;
+  }
+}
+
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+  header {
+    width: 700px;
+  }
+}
+
+/* On screens that are 768px or less*/
+@media screen and (max-width: 768px) {
+  header {
+    width: 550px;
+  }
+}
+
+/* On screens that are 576px or less*/
+@media screen and (max-width: 576px) {
+  header {
+    width: 300px;
+  }
+  figure {
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+  }
+  figure img {
+    width: 58px;
+    height: 58px;
+  }
+  figure figcaption {
+    font-size: small;
+  }
+
+  figure figcaption span {
+    position: relative;
+    top: -5px;
+    font-size: small;
+  }
+
+  figure figcaption::before {
+    width: 58px;
+  }
+
+  figure figcaption::after {
+    width: 58px;
+  }
+}

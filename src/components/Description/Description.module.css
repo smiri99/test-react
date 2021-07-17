@@ -1,0 +1,44 @@
+div.descriptionCard {
+  width: 600px;
+  text-align: left;
+  margin-left: 240px;
+  margin-top: 20px;
+}
+
+div.descriptionCard {
+  width: 577px;
+  text-align: left;
+}
+
+div.descriptionCard h1,
+div.descriptionCard h3 {
+  padding-bottom: 20px;
+}
+
+div.descriptionCard h1 {
+  font-size: x-large;
+}
+
+div.descriptionCard h3 {
+  font-size: large;
+}
+
+div.descriptionCard p {
+  font-size: medium;
+}
+
+/* On screens that are 1200px or less */
+@media screen and (max-width: 1200px) {
+}
+
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+}
+
+/* On screens that are 768px or less*/
+@media screen and (max-width: 768px) {
+}
+
+/* On screens that are 576px or less*/
+@media screen and (max-width: 576px) {
+}
