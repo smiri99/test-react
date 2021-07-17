@@ -5,6 +5,33 @@
   text-align: left;
   margin-left: 240px;
   margin-top: 20px;
+  margin-left: 75px;
+  padding: 31px;
+
+}
+.RatedCard h1{
+  color: #fff;
+  font-family: "Merriweather";
+  font-size: 24px;
+  font-weight: bold;
+}
+.RatedCard h2{
+  color: #AD976E;
+  font-size: x-large;
+  display: inline-flex;
+
+}
+.RatedCard h1::after {
+  content: "";
+  display: inline-block;
+  width: 23.11px;
+  height: 1.5px;
+  background-color: #fff;
+  text-align: center;
+  margin-left: 5px;
+  margin-bottom: 8px;
+}
+.RatedCard p{
   color: #fff;
   font-family: "Source Sans Pro";
   font-size: 14px;
