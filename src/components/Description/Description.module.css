@@ -1,14 +1,8 @@
 div.descriptionCard {
   width: 600px;
   text-align: left;
-  margin-left: 75px;
+  margin-left: 100px;
   margin-top: 20px;
-  
-}
-
-div.descriptionCard {
-  width: 577px;
-  text-align: left;
 }
 
 div.descriptionCard h1,
@@ -37,31 +31,29 @@ div.descriptionCard p {
 
 /* On screens that are 1200px or less */
 @media screen and (max-width: 1200px) {
-  .descriptionCard {
-  width: 800px;
-  }
 }
 
 /* On screens that are 992px or less */
 @media screen and (max-width: 992px) {
-  .descriptionCard {
+  div.descriptionCard {
     width: 700px;
-
+    margin: 10%;
+    margin-top: 30px;
   }
 }
 
 /* On screens that are 768px or less*/
 @media screen and (max-width: 768px) {
-  .descriptionCard {
-    width: 550px;
-
+  div.descriptionCard {
+    width: inherit;
+    margin-top: 10px;
+    padding: 10px;
   }
 }
 
 /* On screens that are 576px or less*/
 @media screen and (max-width: 576px) {
-  .descriptionCard {
-    width: 550px;
-
+  div.descriptionCard {
+    margin: 20px;
   }
 }

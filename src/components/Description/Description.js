@@ -2,8 +2,6 @@ import React from 'react';
 import styles from './Description.module.css';
 
 const Description = () => (
-  /*<section className={styles.showcase}>
-    <div className={styles.description}>*/
   <div className={styles.descriptionCard}>   
     <h1>Envie de vendre votre appartement ou votre maison?</h1>
     <h3>Agorim, l’allié de vos projets immobiliers</h3>

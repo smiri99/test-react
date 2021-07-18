@@ -1,5 +1,4 @@
 header {
-  width: 1200px;
   height: 150px;
   margin: 0 auto;
   padding: 10px 0;
@@ -13,6 +12,7 @@ figure {
   width: 116px;
   height: 116px;
   text-align: center;
+  margin-left: 100px;
 }
 
 figure figcaption {
@@ -48,9 +48,13 @@ figure figcaption::after {
   justify-content: space-between;
   align-items: flex-start;
   list-style-type: none;
-  cursor: pointer;
   font-size: 16px;
   font-family: "merriweather";
+  margin-right: 100px;
+}
+
+.languages li {
+  cursor: pointer;
 }
 
 .lanIsSelected {
@@ -65,36 +69,26 @@ figure figcaption::after {
 
 /* On screens that are 1200px or less */
 @media screen and (max-width: 1200px) {
-  header {
-    width: 800px;
-  }
 }
 
 /* On screens that are 992px or less */
 @media screen and (max-width: 992px) {
-  header {
-    width: 700px;
-  }
 }
 
 /* On screens that are 768px or less*/
 @media screen and (max-width: 768px) {
   header {
-    width: 550px;
+    height: 100px;
   }
-}
-
-/* On screens that are 576px or less*/
-@media screen and (max-width: 576px) {
-  header {
-    width: 300px;
+  .languages {
+    height: 60px;
   }
   figure {
     width: 58px;
     height: 58px;
     text-align: center;
     position: relative;
-    top: -25px;
+    top: -15px;
   }
   figure img {
     width: 58px;
@@ -116,5 +110,31 @@ figure figcaption::after {
 
   figure figcaption::after {
     width: 58px;
+  }
+}
+
+/* On screens that are 576px or less*/
+@media screen and (max-width: 576px) {
+  figure {
+    width: 38px;
+    height: 38px;
+    margin-left: 50px;
+  }
+
+  figure img {
+    width: 38px;
+    height: 38px;
+  }
+
+  figure figcaption::before {
+    width: 38px;
+  }
+
+  figure figcaption::after {
+    width: 38px;
+  }
+
+  .languages {
+    margin-right: 50px;
   }
 }
