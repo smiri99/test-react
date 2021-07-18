@@ -27,8 +27,9 @@ section.catalogueAndContactSection {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 50px;
-
+  overflow: hidden;
 }
 
 /* On screens that are 1200px or less */

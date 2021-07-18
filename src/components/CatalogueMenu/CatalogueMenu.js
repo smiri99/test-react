@@ -4,7 +4,7 @@ import styles from './CatalogueMenu.module.css';
 class CatalogueMenu extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {btnState : true}
+    this.state = {btnState : false}
   }
 
   toggleClassMethod = (event) => {
