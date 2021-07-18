@@ -11,3 +11,53 @@ img.showcaseImage {
   right: 0;
   z-index: -10;
 }
+
+section.showcaseSection {
+  height: 854px;
+}
+
+section.catalogueAndContactSection {
+  padding: 60px;
+  background-color: #f2f2f2;
+}
+
+.cardsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+/* On screens that are 1200px or less */
+@media screen and (max-width: 1500px) {
+  img.showcaseImage {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  img.showcaseImage {
+    width: 250px;
+  }
+}
+
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+  img.showcaseImage {
+    display: none;
+  }
+}
+
+/* On screens that are 768px or less*/
+@media screen and (max-width: 768px) {
+  .cardsContainer {
+    flex-direction: column;
+  }
+}
+
+/* On screens that are 576px or less */
+@media screen and (max-width: 576px) {
+}

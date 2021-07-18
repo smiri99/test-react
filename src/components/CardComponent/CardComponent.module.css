@@ -1,0 +1,28 @@
+.CardComponent {
+  width: 388px;
+  height: 515px;
+  background: #2e2b2b;
+  border: 1px solid 707070;
+}
+.cap{
+  font-family: Merriweather;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.footerCard::after {
+  margin-top: -2%;
+  position: absolute;
+  content: "\2665";
+  display: inline;
+  color: #fff;
+  font-size: 36px;
+  font-family: "system-ui";
+  margin-left: 6%;
+}
+.footerCard{
+  text-align: left;
+  color: #fff;
+  padding: 29px;
+
+}
