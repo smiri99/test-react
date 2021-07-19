@@ -6,10 +6,12 @@ div.descriptionCard {
 }
 
 div.descriptionCard h1,
-div.descriptionCard h2 {
+div.descriptionCard h3 {
   padding-bottom: 20px;
 }
-
+.discopt{
+  width: 464px;
+}
 div.descriptionCard h1 {
   font-family: "merriweather";
   font-size: 28px;

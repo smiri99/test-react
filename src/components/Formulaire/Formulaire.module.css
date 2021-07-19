@@ -1,0 +1,76 @@
+.Formulaire {
+    background-color: #fff;
+    position: absolute;
+    margin-top: -111%;
+    margin-left: 55%;
+    width: 388px;
+    height: 557px;
+    padding: 15px;
+    padding-top: 35px;
+    border:solid 1px #43425D;
+}
+.title{
+font-family: Merriweather;
+font-size: 20;
+font-weight: bold;
+}
+p{
+    font-family: Source Sans Pro;
+    font-size: 16;
+    text-align: left;
+   
+}
+.pp{ opacity: 70%;
+    width: 262px;
+    height: 85px;
+}
+
+.prenom{
+    display:flex;
+    flex-direction: column;
+}
+.nom{
+    display:flex;
+    flex-direction: column;
+
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+input[name="prenom"], input[name="nom"]{
+width: 168px;
+height: 40px; 
+padding: 10%;
+ }
+input[type= text]{
+    background-color: #F6F7F9;
+    text-align: left;
+    
+    border: none;
+
+}
+ label{
+    font-family: Source Sans Pro;
+    font-size: 14;  
+    text-align: left;
+    margin-left: 3%;
+}
+input[name="tel"], input[name="email"]{
+    width: 348px;
+    height: 40px;  
+    padding: 3%;
+
+}
+input[type=submit]{
+    background-color: #1D1D1B;
+    width: 140px;
+    height: 40px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: #fff;
+}
+form{
+    padding-top: 10%;
+}

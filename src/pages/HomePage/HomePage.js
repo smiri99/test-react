@@ -9,6 +9,7 @@ import RatedCard from './../../components/RatedCard/RatedCard.js'
 import ExpertiseCard from '../../components/ExpertiseCard/ExpertiseCard';
 import CatalogueMenu from '../../components/CatalogueMenu/CatalogueMenu';
 import CardComponent from '../../components/CardComponent/CardComponent';
+import Formulaire from '../../components/Formulaire/Formulaire';
 
 
 class HomePage extends React.Component {
@@ -31,7 +32,7 @@ class HomePage extends React.Component {
             <CardComponent image={"/images/toa-heftiba-662338-unsplash.png"} cap={"Springfield House	"}/>
           </div>
         </section>
-        
+        <Formulaire/>
         <Footer />
       </div>
     );

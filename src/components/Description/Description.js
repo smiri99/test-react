@@ -4,8 +4,6 @@ import styles from './Description.module.css';
 class Description extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {mainTitle: "Envie de vendre votre appartement ou votre maison?"};
-    this.state = {secondTitle: "Agorim, l’allié de vos projets immobiliers"};
     this.state = {paragraph: {
       header: "Optez pour la solution la plus performante, choisissez l’ensemble des expertises nécessaires à la vente de votre propriété bruxelloise en toute tranquillité :",
       expertise: ["• Une équipe réactive et pluridisciplinaire à taille humaine",
@@ -22,15 +20,16 @@ class Description extends React.Component {
   render() {
     return (
       <div className={styles.descriptionCard}>   
-        <h1>{this.state.mainTitle}</h1>
-        <h3>{this.state.secondTitle}</h3>
+        <h1>Envie de vendre votre appartement ou votre maison?</h1>
+        <h3>Agorim, l’allié de vos projets immobiliers</h3>
+        <div className={styles.discopt}>
         <p>{this.state.paragraph.header}</p>
         {this.state.paragraph.expertise
             .map(el => { 
               return <p>{el}</p>
             })
         }
-        
+        </div>
       </div>
   );
   }
